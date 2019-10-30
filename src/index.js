@@ -15,8 +15,7 @@ app.use(bodyParser.json());
 app.use(authRoutes);
 app.use(trackRoutes);
 
-const mongourl =
-  "mongodb+srv://admin:passwordpassword@cluster0-oxtzn.mongodb.net/test?retryWrites=true&w=majority";
+const mongourl = "";
 
 mongoose.connect(mongourl, {
   useNewUrlParser: true,
